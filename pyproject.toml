@@ -1,0 +1,14 @@
+[project]
+name = "quizify"
+version = "0.1.0"
+description = "A PDF study companion that generates summaries and quizzes."
+authors = [{ name = "AI", email = "ai@dev.null" }]
+requires-python = ">=3.8"
+dependencies = [
+    "chainlit",
+    "google-generativeai",
+    "pypdf",
+]
+
+[tool.uv]
+dev-dependencies = []
